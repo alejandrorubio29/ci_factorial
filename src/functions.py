@@ -19,4 +19,4 @@ def factorial(num):
         raise TypeError("El argumento debe ser un entero")
     if num < 0:
         raise ValueError("El argumento debe ser un entero no negativo o cero")
-    return num * factorial(num - 1) 
+    return num * factorial(num - 1)  
